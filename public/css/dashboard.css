@@ -1,0 +1,69 @@
+/* dashboard */
+/* Chart */
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.chart-box {
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+
+.chart-box canvas {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+}
+
+.form-device {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* edit button, delete button */
+.edit-btn,
+.delete-btn {
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 2px;
+    background: #2ac2ff;
+    text-transform: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 0.8;
+}
+
+.delete-btn {
+    background: #ff9970 !important;
+}
+
+.chart-child {
+    width: 48%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px 0px rgb(0 0 0 / 19%);
+    text-align: center;
+    padding: 30px 15px;
+
+}
+
+.chart-child input {
+    height: 36px;
+    padding: 10px;
+    background: #EAE1E1;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+    box-shadow: 2px 2px 0px 0px rgb(0 0 0 / 15%);
+}

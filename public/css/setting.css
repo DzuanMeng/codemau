@@ -1,0 +1,96 @@
+.delete-container .delete-modal {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60% !important;
+}
+.delete-container .delete-modal img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.delete-container .delete-modal div {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.delete-container .delete-modal div input {
+    border: 1px solid #0089ff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    outline-color: #0089ff;
+}
+.delete-container .delete-modal div .input-warning {
+    outline-color: red;
+}
+.delete-container .delete-modal div span.password-error_message {
+    position: absolute;
+    display: none;
+    font-size: 14px;
+    bottom: -15px;
+    left: 40%;
+    color: red;
+}
+.delete-container .delete-modal .submit {
+    background-color: #2077ff !important;
+}
+
+.content .profile-container {
+    background: #fff;
+    padding: 0 20px;
+    margin-top: 100px;
+}
+.content .profile-container .img-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.content .profile-container .img-box img {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -122px;
+    border: 5px solid #fff;
+}
+.content .profile-container .img-box .button-box {
+    display: flex;
+}
+.content .profile-container .img-box .button-box button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #0089ff;
+    font-size: 18px;
+    color: #0089ff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #fff;
+}
+.content .profile-container .profile-box {
+    padding-bottom: 70px;
+}
+.content .profile-container .profile-box h3 {
+    font-size: 30px;
+}
+.content .profile-container .profile-box p {
+    font-size: 20px;
+}
+.content .profile-container .profile-box button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #ff0000;
+    font-size: 18px;
+    color: #ff0000;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fff;
+}/*# sourceMappingURL=setting.css.map */

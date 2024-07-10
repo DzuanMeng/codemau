@@ -1,0 +1,110 @@
+.delete-container {
+
+  .delete-modal {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60% !important;
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      object-fit: cover;
+    }
+    div {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+
+      input {
+        border: 1px solid #0089ff;
+        padding: 10px;
+        border-radius: 10px;
+        width: 60%;
+        outline-color: #0089ff;
+      }
+      .input-warning {
+        outline-color: red;
+      }
+      span.password-error_message {
+        position: absolute;
+        display: none;
+        font-size: 14px;
+        bottom: -15px;
+        left: 40%;
+        color: red;
+      }
+    }
+    .submit {
+      background-color: #2077ff !important;
+    }
+  }
+}
+
+.content {
+  .profile-container {
+    background: #fff;
+    padding: 0 20px;
+    margin-top: 100px;
+
+    .img-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      img {
+        width: 200px;
+        height: 200px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -122px;
+        border: 5px solid #fff;
+      }
+
+      .button-box {
+        display: flex;
+
+        button {
+          padding: 10px 20px;
+          border-radius: 50px;
+          border: 1px solid #0089ff;
+          font-size: 18px;
+          color: #0089ff;
+          font-weight: 500;
+          margin-bottom: 15px;
+          cursor: pointer;
+          margin-left: 10px;
+          background-color: #fff;
+        }
+      }
+    }
+
+    .profile-box {
+      padding-bottom: 70px;
+
+      h3 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: 1px solid #ff0000;
+        font-size: 18px;
+        color: #ff0000;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: #fff;
+      }
+    }
+
+  }
+}
